@@ -42,6 +42,7 @@ img {
 }
 
 .done {
-  color: red;
-  text decoration: line-through solid black 2px;
+  color: #851b12;
+  text-decoration: line-through solid black 2px;
 }
+
