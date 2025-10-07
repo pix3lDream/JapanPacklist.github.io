@@ -2,10 +2,10 @@ const myImage = document.querySelector("img");
 
 myImage.addEventListener("click", () => {
   const mySrc = myImage.getAttribute("src");
-  if (mySrc === "images/Japan.jpg") {
-    myImage.setAttribute("src", "images/laterns.jpg");
+  if (mySrc === "Japan.jpg") {
+    myImage.setAttribute("src", "laterns.jpg");
   } else {
-    myImage.setAttribute("src", "images/Japan.jpg");
+    myImage.setAttribute("src", "Japan.jpg");
   }
 });
 
@@ -31,4 +31,5 @@ if (!localStorage.getItem("name")) {
 
 myButton.addEventListener("click", () => {
   setUserName();
+
 });
